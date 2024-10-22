@@ -573,7 +573,7 @@
   }
 
   .backdrop:not(.is-open) .modal {
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -50%);
   }
    
   .modal-button {
@@ -620,11 +620,8 @@
   }
   
   .modal-form {
-    display: flex;
     flex-direction: column;
     gap: 8px;
-    padding-top: 16px;    
-    max-width: 360px;
   }
 
   .modal-box {
